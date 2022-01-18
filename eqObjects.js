@@ -5,6 +5,9 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
+
+
 const eqObjects = function (object1, object2) {
   const keys = Object.keys(object1)
   
